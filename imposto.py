@@ -5,4 +5,4 @@ if not imposto:
 else:
 	imposto = float(imposto)
 
-print("valor real: {0}".format(salario - (salario * (imposto * 0.01))))
+print("valor: ".format(salario - (salario * (imposto * 0.01))))
